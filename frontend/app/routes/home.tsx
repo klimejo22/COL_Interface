@@ -1,13 +1,13 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import { Homepage } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "COL Finder" },
+    { name: "description", content: "Najdi si jakéhokoliv hráče COL spring split 2026" },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return <Homepage />;
 }
