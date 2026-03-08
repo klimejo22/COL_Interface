@@ -1,5 +1,9 @@
 <?php
-require_once "secrets.php";
+define('DB_NAME', 'd315069_colspr');
+define('DB_USER', 'a315069_colspr');
+define('DB_PASSWORD', 'CoL_SPRING2026');
+define('DB_HOST', 'md391.wedos.net');
+
 global $db;
 $db = new PDO(
         "mysql:host=" .DB_HOST. ";dbname=" .DB_NAME,DB_USER,DB_PASSWORD,
